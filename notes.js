@@ -49,6 +49,15 @@ function loadNotes(){
     }
 }
 
+
+
+//Remove a Note
+
+const removeNote = function(title){
+
+}
+
 module.exports={
-    addNote:addNote
+    addNote:addNote,
+    removeNote:removeNote
 }
