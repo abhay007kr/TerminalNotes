@@ -41,4 +41,20 @@ yargs.command({
     }
 })
 
+//command for listing notes
+yargs.command({
+    command:'list',
+    describe:'list an existing notes',
+    builder:{
+        title:{
+            demandOption:true,
+            type:'string',
+            describe:'notes title'
+        }
+    },
+    handler:function(){
+        notes.listNote(argv.title)
+    }
+})
+
 yargs.parse()

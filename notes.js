@@ -74,7 +74,7 @@ const removeNote = function(title){
 //List Notes
 
 const listNote = function(title){
-
+    console.log("title :" + title)
 }
 module.exports={
     addNote:addNote,
