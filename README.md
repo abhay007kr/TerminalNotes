@@ -3,7 +3,7 @@
 
 Browse into the cloned Directly
 
-In terminal 
+In terminal
 For adding note :  node app.js add --title="<add notes title>" --body="<add body>"
 For removing note : node app.js remove --title="<existing notes title>"
 For listing notes : node app.js list --title="<existing notes title>"
