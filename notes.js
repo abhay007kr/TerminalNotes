@@ -31,5 +31,8 @@ function loadNote(){
     }catch(e){
         return []
     }
-    
+}
+
+module.exports={
+    addNote:addNote
 }
