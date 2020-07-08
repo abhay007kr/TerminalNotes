@@ -12,6 +12,14 @@ const addNote = function(title,body){
             body:body
         }
     )
+
+    saveNotes(notes)
+}
+
+//To save the notes in a file
+const saveNotes = function(notes){
+    const dataJson = JSON.stringify(saveNotes)
+    fs.writeFileSync('notes.json',dataJson)
 }
 
 //To check if the file named "notes.json" exists 
