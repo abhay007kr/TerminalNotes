@@ -5,6 +5,13 @@ const { loadNote } = require('../Notes/notes')
 const addNote = function(title,body){
     const notes = loadNotes() //First load a note
     console.log(notes)
+
+    notes.push(
+        {
+            title:title,
+            body:body
+        }
+    )
 }
 
 //To check if the file named "notes.json" exists 
