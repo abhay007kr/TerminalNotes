@@ -69,7 +69,15 @@ const removeNote = function(title){
         saveNotes(notesToKeep)
 }
 
+
+
+//List Notes
+
+const listNote = function(title){
+
+}
 module.exports={
     addNote:addNote,
-    removeNote:removeNote
+    removeNote:removeNote,
+    listNote:listNote
 }
