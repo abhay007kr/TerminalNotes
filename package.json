@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/abhay007kr/TerminalNotes/issues"
   },
-  "homepage": "https://github.com/abhay007kr/TerminalNotes#readme"
+  "homepage": "https://github.com/abhay007kr/TerminalNotes#readme",
+  "dependencies": {
+    "yargs": "^15.4.0"
+  }
 }
